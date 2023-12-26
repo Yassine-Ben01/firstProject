@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- file style.css -->
+    <link rel="stylesheet" href="style.css">
+    <title>EFF 2018</title>
+</head>
+<body>
+    <div class="content">
+        <div class="table-content">
+        <table>
+            <thead>
+                <th>Matricule</th>
+                <th>Nom & Prenom</th>
+                <th>Asidute</th>
+                <th>Descipline</th>
+                <th>Animation cours</th>
+                <th>Encadrement</th>
+                <th>Preparation cours</th>
+                <th>Note</th>
+                <th>Decicion</th>
+            </thead>
+            <tbody id="tbody"></tbody>
+            <tfoot>
+               <tr>
+                  <td><button id="calAll">cal tous</button></td>
+                  <td><button id="delAll">effacer</button></td>
+                  <td><button id="generate">generate</button></td>
+               </tr>
+            </tfoot>
+        </table>
+        </div>
+        <div class="avancement">
+            <p >
+                nombreux des seccess : 
+                <span id="avanc_rapide"></span>
+            </p>
+            <p>
+                nombreux des failed :
+                <span id="avanc_long"></span>
+            </p>
+        </div>
+    </div>
+
+    <!-- file main.js -->
+    <script src="main.js"></script>
+</body>
+</html>
